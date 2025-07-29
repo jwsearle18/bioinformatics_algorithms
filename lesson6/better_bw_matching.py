@@ -1,3 +1,4 @@
+"""Improved Burrows-Wheeler matching algorithm implementation."""
 import sys
 from typing import List, Dict, Iterable, Tuple
 

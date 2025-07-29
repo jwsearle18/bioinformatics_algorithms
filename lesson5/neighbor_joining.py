@@ -1,3 +1,4 @@
+"""Neighbor-Joining phylogenetic tree algorithm."""
 import pandas as pd # type: ignore
 
 def get_delta(TotalDist: list, n: int, i: int, j: int):
@@ -103,3 +104,4 @@ def displayTree(tree):
             print(f'{key}->{value}:{tree[key][value]:.3f}')
 
 displayTree(myTree)
+

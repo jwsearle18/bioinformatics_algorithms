@@ -1,3 +1,4 @@
+"""Standard Burrows-Wheeler matching algorithm."""
 import sys
 from typing import List, Dict, Iterable, Tuple
 

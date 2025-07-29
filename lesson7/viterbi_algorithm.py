@@ -1,3 +1,4 @@
+"""Implementation of the Viterbi algorithm."""
 from typing import List
 import pandas as pd # type: ignore
 
@@ -48,3 +49,4 @@ def viterbi_algorithm(x: str, alphabet: List[str], states: List[str],
         current_state = prev_state
         
     return pi
+

@@ -1,3 +1,4 @@
+"""Needleman-Wunsch global alignment implementation."""
 import sys
 from typing import List, Dict, Tuple
 
@@ -64,3 +65,4 @@ def global_alignment(match_reward: int, mismatch_penalty: int, indel_penalty: in
             second_string += "-"
             v -= 1
     return max_val, first_string[::-1], second_string[::-1]
+
