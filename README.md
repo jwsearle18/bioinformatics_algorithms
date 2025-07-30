@@ -1,6 +1,6 @@
 # Bioinformatics Algorithms
 
-This repository contains a collection of bioinformatics algorithms implemented in Python. These algorithms were developed as part of the Bioinformatics Algorithms course.
+This repository contains a collection of bioinformatics algorithms implemented in Python. These algorithms were developed as part of the Bioinformatics Algorithms course at BYU.
 
 ## Table of Contents
 
